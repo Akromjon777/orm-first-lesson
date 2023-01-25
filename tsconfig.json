@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "lib": [ "es5", "es6", "es7",
+    "es2015", "es2016",
+    "es2017", "es2018",
+    "esnext" ],
+    "strict": true,
+    "module": "CommonJS",
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "allowJs": true,
+    "baseUrl": "src",
+    "declaration": true,
+    "declarationMap": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "paths": {
+      "@/*": ["*"]
+    }
+  },
+  "ts-node": {
+    "esm": true
+  },
+}
